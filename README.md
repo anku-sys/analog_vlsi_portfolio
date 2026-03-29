@@ -31,7 +31,7 @@ This project involves the transistor-level design and simulation of a Two-Stage 
 ## Circuit Architecture
 The Operational Amplifier is built using a modular approach, divided into four key stages:
 
-1. **Biasing Network (Current Mirrors):** - A 10µA reference current source is mirrored using an NMOS current mirror (M1, M2, M8) to provide stable tail currents for the subsequent stages. Channel Length Modulation (CLM) effects were mitigated through optimized transistor sizing ($L=0.54\mu m, W=5.4\mu m$).
+1. **Biasing Network (Current Mirrors):** - A 10µA reference current source is mirrored using an NMOS current mirror (M1, M2, M8) to provide stable tail currents for the subsequent stages. Channel Length Modulation (CLM) effects were mitigated through optimized transistor sizing ($L=0.54µ m, W=5.4µ m$).
 
 2. **First Stage (Differential Pair):** - Uses an NMOS differential pair (M3, M4) to accept the input voltages. It splits the 10µA tail current dynamically based on the differential input voltage.
 
