@@ -44,7 +44,7 @@ The Operational Amplifier is built using a modular approach, divided into four k
 - **Supply Voltage ($V_{DD}$):** 1.8V
 - **Common Mode Input Voltage:** 0.9V
 - **Tail Current:** ~10µA
-- **Differential Branch Currents:** ~5µA ($I_{D3} \approx I_{D4}$)
+- **Differential Branch Currents:** ~5µA
 - **Output Stage Quiescent Current:** ~10µA
 
 ## Simulation Details
