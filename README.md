@@ -23,6 +23,7 @@ Design and DC analysis (Voltage Transfer Characteristics) of a fundamental CMOS 
 # Two-Stage CMOS Operational Amplifier (180nm Technology)
 
 **Author:** ANKUSH RAI 
+**Registration Number:** 23BEC0415  
 **Domain:** Analog VLSI Design  
 
 ## Project Overview
@@ -31,7 +32,7 @@ This project involves the transistor-level design and simulation of a Two-Stage 
 ## Circuit Architecture
 The Operational Amplifier is built using a modular approach, divided into four key stages:
 
-1. **Biasing Network (Current Mirrors):** - A 10µA reference current source is mirrored using an NMOS current mirror (M1, M2, M8) to provide stable tail currents for the subsequent stages. Channel Length Modulation (CLM) effects were mitigated through optimized transistor sizing ($L=0.54µ m, W=5.4µ m$).
+1. **Biasing Network (Current Mirrors):** - A 10µA reference current source is mirrored using an NMOS current mirror (M1, M2, M8) to provide stable tail currents for the subsequent stages. Channel Length Modulation (CLM) effects were mitigated through optimized transistor sizing ($L=0.54\mu m, W=5.4\mu m$).
 
 2. **First Stage (Differential Pair):** - Uses an NMOS differential pair (M3, M4) to accept the input voltages. It splits the 10µA tail current dynamically based on the differential input voltage.
 
@@ -44,7 +45,7 @@ The Operational Amplifier is built using a modular approach, divided into four k
 - **Supply Voltage ($V_{DD}$):** 1.8V
 - **Common Mode Input Voltage:** 0.9V
 - **Tail Current:** ~10µA
-- **Differential Branch Currents:** ~5µA
+- **Differential Branch Currents:** ~5µA ($I_{D3} \approx I_{D4}$)
 - **Output Stage Quiescent Current:** ~10µA
 
 ## Simulation Details
